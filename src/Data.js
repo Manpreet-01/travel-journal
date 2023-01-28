@@ -1,4 +1,4 @@
-export default [
+const Data = [
     {
         title: "Taj Mahal",
         location: "Agra",
@@ -24,3 +24,5 @@ export default [
       img: "Humayunstomb.png"
     },
 ]
+
+export default Data;

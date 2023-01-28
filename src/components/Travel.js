@@ -2,7 +2,6 @@ import React from "react"
 
 export default function Travel(props) {
     return (
-        // my new code
         <div className="travel--g">
             <img src={`../images/${props.img}`} className="travel--image" alt="" />
             <div className="main" >

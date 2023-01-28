@@ -16,7 +16,7 @@ import "./App.css"
       description={item.description}
       />
     )
-   })
+   });
   return (
     <div>
        <NavBar />
