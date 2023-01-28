@@ -4,24 +4,20 @@
 
 .container{
     height: 70px;
-    display: flex; 
+    display: grid;
+	grid: 70px/ 43% auto;
     align-items: center;
     box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
 }
 .travel--logo{
-    width: 5%;
-    height: 90%;
-    margin-left: 40%;
-    border-radius: 50%
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+
 }
 .travel--name {
-    align-content: center;
-    text-align: center;
-    width: 50%;
-    padding: 15px 15px;
+	margin-left:2px;
     font-size: 32px;
-    margin: auto;
-    margin-left: -206px;
 }
 
 .travel--g {
@@ -55,7 +51,7 @@
 
 #travel-date{
 	display: contents;
-	font-size: 18px;
+	font-size: 20px;
     font-weight: bold;
 }
 .travel--bold{
@@ -65,11 +61,12 @@
 #place-name {
     font-weight: bolder;
     font-size: 27px;
-    padding: 10px;
+    padding: 10px;	
+    padding-left: 0px;
+
 }
 
 #item-location{
-	width:50%;
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
